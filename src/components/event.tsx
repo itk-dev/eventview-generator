@@ -3,9 +3,6 @@ import mad from '../mockdata/mad.jpg'
 
 export default function Event(...props) {
 
-
-  console.log(props[0]);
-
   return (
     <div className="shadow relative p-10 bg-white">
       <div className="flex flex-col md:flex-row">
